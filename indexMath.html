@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>My Math Game</h1>
+    <div class="main-section">
+      <div class="flex hidden" id="question-section">
+        <p id="question">Equation</p>
+        =
+        <input type="number" id="answer" />
+        <button id="submit-button">Submit</button>
+      </div>
+      <button id="start">Start</button>
+      <div id="q">0</div>
+      <div id="timer"><span id="time">0</span>s</div>
+    </div>
+
+    <p id="score-section">Score: <span id="score">0</span>/10</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
